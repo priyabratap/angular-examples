@@ -1,4 +1,4 @@
-# angular-w7n4si
+# angular-dynamic-component-load-with-allow-component-function-call-from-outside
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.1.
 
