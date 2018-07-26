@@ -1,0 +1,29 @@
+.hero-profile {
+  border: 1px solid gray;
+  padding: 5px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  background-color: lightgreen;
+  color: black;
+}
+
+.job-ad {
+  border: 1px solid gray;
+  padding: 5px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  background-color: lightblue;
+  color: black;
+}
+
+.ad-banner {
+  width: 400px;
+}
+
+/*
+Copyright 2017-2018 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/
