@@ -2,6 +2,18 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.1.
 
+# allow-component-function-call-from-outside
+ ```
+ File : app.component.ts
+ ngZone is required here
+ window['angularComponentReference'] = {
+            zone: this.zone,
+            componentFn: () => this.changeme(),
+            component: this,
+        };
+
+  }
+```
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
